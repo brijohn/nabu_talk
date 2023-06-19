@@ -1,0 +1,23 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Tech Talk: The NABU PC'
+theme = ["github.com/dzello/reveal-hugo"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+
+[markup.highlight]
+codeFences = false  # use highlight.js
+# style = "tango"  # set a style for hugo highlighting
+
+[params.reveal_hugo]
+highlight_theme = "github"
+slide_number = true
+width = 1024
+height = 768

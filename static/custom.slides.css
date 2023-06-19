@@ -1,0 +1,38 @@
+:root {
+	--r-main-font-size: 35px;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-container .flex-col {
+	flex: 1;
+}
+
+.ljustify {
+	text-align: left;
+}
+
+.reveal pre code {
+	max-height: 650px;
+}
+
+.reveal section .small {
+    display: inline-block;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+
+.reveal section .smaller {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top;
+}
+
+.reveal .r-stack > * {
+  grid-area: 1/1;
+  margin: 0;
+}

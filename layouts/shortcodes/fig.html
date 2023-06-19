@@ -1,0 +1,1 @@
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>{{ .Inner }}{{ with (.Get "caption") -}}<figcaption>{{ . }}</figcaption>{{- end -}}</figure>
